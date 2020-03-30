@@ -1,0 +1,59 @@
+@charset "utf-8";
+@import "reset.css";
+@import "css3-classes.less";
+/* style.css - 基本样式文档, 2011 © yamoo9.com
+---------------------------------------------------------------- */
+
+/* ///////////////////////////////////////// 
+	=基本样式
+///////////////////////////////////////// */
+html { overflow-y: scroll; }
+body {
+	font-family: 'NanumGothicWeb';
+	background: #77807f url(../images/wood_bg.jpg) center top;
+	color: #fff;
+}
+a:link, a:visited { color: #fff; }
+
+/* ///////////////////////////////////////// 
+	=#page-wrap
+///////////////////////////////////////// */
+
+#page-wrap {
+	width: 740px;
+	margin: 100px auto;
+}
+h1 {
+	margin-bottom: 1.5em;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	text-shadow: 0px 2px #111;
+}
+h1 span {
+	display: block;
+	margin-top: 6px;
+	letter-spacing: 7px;
+	font: 14px Verdana;
+}
+
+/* ///////////////////////////////////////// 
+	=.Global Classes
+///////////////////////////////////////// */
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	}
+	.ie6 .clearfix { height: 1px; }
+	.ie7 .clearfix { min-height: 1px; }
+	
+.blind {
+	visibility: hidden;
+	position: absolute;
+	top: -10000px;
+	height: 1px;
+	width: 1px;
+}
+
